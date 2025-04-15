@@ -37,15 +37,25 @@ Each assignment will have a few of the following categories of exercises:
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
+    - Aspect Tested: In this example, I'm testing the completeness of the response, as well as determining the appropriateness for a beginner.
+    - Grade: Bad Vibes
+    - While the metaphor provided is reasonable, it doesn't necessarily draw a good comparison to object oriented programming. It would be difficult for a beginner to understand OOP from the example provided. 
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: In this example, I'm testing the ability of the model to summarize the text, and provide insight without hallucinating or being overly general.
+    - Grade: Reasonable Vibes
+    - The summary is accurate and does a reasonable job of summarizing the key points, however, it isn't as concise as it could be. In addition, the format of the response could be improved with bullet points. 
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: In this example, I'm testing the abiltiy of the model to provide an imaginitive response (albeit my opinion) and it's ability to stay within the word requirement.
+    - Grade: Good Vibes
+    - The story was somewhat imaginative (for someone who lacks imagination) and stays under 150 words. 
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: In this example, I'm testing the ability of the model to provide clear and concise steps to a problem that involves calculations.
+    - Grade: Good Vibes
+    - The output was clear, the steps were reasonable and concise, and ultimately the answer was correct. 
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: In this example, I'm testing the ability of the model to rewrite a prompt (that I generated from chatGPT) in a more formal tone without losing the substance of the original paragraph.
+    - Grade: Resonable Vibes
+    - The output took a very informal paragraph and made it more formal. In addition, the response included the general points of the original, but included details that could have been improved upon. 
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -64,3 +74,5 @@ In essence, it's a first look to ensure your system isn't experiencing catastrop
 ##### 🧑‍🤝‍🧑❓ Discussion Question #1:
 
 What are some limitations of vibe checking as an evaluation tool?
+
+The results of vibe checking are dependent upon the reviewer and come with the same human biases that are problematic in subjective evaluation. However, when dealing with topics that you have expertise in, this can be a logical first step for evaluating the results of generative AI. Evaluations in this manner will be difficult to scale and should serve only as a first step in the evaluation process (if used at all). 
